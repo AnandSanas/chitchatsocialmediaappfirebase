@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/homefragrent">
+
+    <fragment
+        android:id="@+id/homefragrent"
+        android:name="com.example.chitchat.homefragrent"
+        android:label="fragment_homefragrent"
+        tools:layout="@layout/fragment_homefragrent" />
+    <fragment
+        android:id="@+id/newpost"
+        android:name="com.example.chitchat.newpost"
+        android:label="fragment_newpost"
+        tools:layout="@layout/fragment_newpost" />
+    <fragment
+        android:id="@+id/userprofilepic"
+        android:name="com.example.chitchat.profile"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>
